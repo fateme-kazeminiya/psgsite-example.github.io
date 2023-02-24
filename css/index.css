@@ -1,6 +1,14 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    /* line-height: 30px; */
+}
+
+img {
+    transform: scale(1);
+    transition-duration: 500ms;
+}
+
+.box1:hover img {
+    transform: scale(1.1);
 }
 
 
@@ -21,7 +29,6 @@ body {
         text-decoration: none;
         color: rgb(36, 85, 128);
         display: inline-block;
-        /* margin-top: 20px; */
 
     }
 
@@ -30,7 +37,6 @@ body {
         height: 100px;
         background-color: aqua;
         overflow: hidden;
-        /* padding: 20px; */
     }
 
     p {
@@ -52,7 +58,6 @@ body {
         flex-direction: row;
         justify-content: left;
         align-items: flex-start;
-        /* border-bottom: 1px solid gray; */
         margin: 20px 10px 20px 0;
 
     }
@@ -97,8 +102,13 @@ body {
         color: black;
         font-weight: 600;
     }
-    .div-br{
+
+    .div-br {
         display: none;
+    }
+
+    .div-img {
+        overflow: hidden;
     }
 
 }
@@ -127,8 +137,13 @@ body {
         color: black;
         font-weight: 600;
     }
-    .div-br{
+
+    .div-br {
         display: none;
+    }
+
+    .div-img {
+        overflow: hidden;
     }
 }
 
@@ -162,7 +177,12 @@ body {
         color: black;
         font-weight: 600;
     }
-    .div-br{
+
+    .div-br {
         display: none;
+    }
+
+    .div-img {
+        overflow: hidden;
     }
 }
